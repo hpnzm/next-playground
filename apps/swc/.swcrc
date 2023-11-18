@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "jsc":{
+        "parser":{
+            "syntax": "ecmascript",
+            "jsx": true
+        },
+        "transform": {
+            "react": {
+                "importSource": "@emotion/react",
+                "runtime": "automatic"
+            }
+        },
+        "experimental":{
+            "plugins":  [["@swc/plugin-emotion",{}]]            
+        }
+    }
+}

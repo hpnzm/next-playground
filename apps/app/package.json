@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "dev": "next dev"
+    },
+    "dependencies": {
+        "swc-emotion": "*"
+    }
+}

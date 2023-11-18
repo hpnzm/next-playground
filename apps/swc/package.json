@@ -1,0 +1,15 @@
+{
+  "name": "swc-emotion",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "swc index.js -d dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.63",
+    "@swc/core": "^1.3.96"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@swc/plugin-emotion": "^2.5.98"
+  }
+}
