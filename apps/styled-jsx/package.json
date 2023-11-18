@@ -1,0 +1,6 @@
+{
+  "name": "styled-jsx-app",
+  "scripts": {
+    "dev": "next dev"
+  }
+}

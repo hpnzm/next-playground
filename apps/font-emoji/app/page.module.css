@@ -1,0 +1,40 @@
+.hero {
+  height: 70vh;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-inline: auto;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero__text--heading {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  animation: fade-up ease 1s forwards;
+  opacity: 0;
+}
+
+.hero__text--description {
+  font-size: 2rem;
+  font-weight: 700;
+  animation: fade-up ease 1s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  color: rgb(70, 63, 63);
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

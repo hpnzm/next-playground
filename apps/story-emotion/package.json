@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@storybook/nextjs": "^7.5.3",
+    "storybook": "^7.5.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

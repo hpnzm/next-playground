@@ -1,0 +1,8 @@
+:root {
+  background-color: aliceblue;
+  color: rgb(43, 36, 36);
+}
+
+.emoji {
+  font-family: var(--emoji-font);
+}
