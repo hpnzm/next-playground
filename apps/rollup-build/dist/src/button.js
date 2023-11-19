@@ -1,4 +1,4 @@
-'use client';
+"use client"
 import { jsx } from '@emotion/react/jsx-runtime';
 
 function Button() {
